@@ -14,8 +14,6 @@ public class Test {
         ScheduledExecutorService service = Executors.newScheduledThreadPool(2);
         /*service.schedule(runnable,2, TimeUnit.SECONDS);
         service.schedule(callable,1,TimeUnit.MILLISECONDS);*/
-        //ees  erkusy menak runnable i het
-        // service.scheduleWithFixedDelay(runnable,2,1,TimeUnit.MILLISECONDS);
 
         //service fixed rate -vy  nayum a tvyal threadi  nakhord executiony erb a sksel, dranic fixvats jam
         //heto eli a ed thready executum
